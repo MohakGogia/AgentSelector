@@ -11,6 +11,7 @@ class Agent:
         self.is_available = bool(avail)
         self.available_since = av_time
         self.role = role
+        
     def get(self):
         print("____________________________")
         print("Available agent Details: ")
